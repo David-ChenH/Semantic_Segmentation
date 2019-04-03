@@ -11,7 +11,6 @@ Setup
 
 2. Extract the data to data folder with structure like below:
 
-ch3371_tw2658
     - vgg16_weights_tf_dim_ordering_tf_kernels_notop.h5
     - cityscapes.py
     - small_ade.py
