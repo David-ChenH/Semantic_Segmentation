@@ -1,11 +1,11 @@
 
-Requirements
+## Requirements
 1. tensorflow 1.8.0
 2. python 3.6.5
 3. Opencv 3.4.4.19
 4. Keras 2.2.4
 
-Setup
+## Setup
 1. Download ADEChallengeData2016 Dataset Scene Parsing from http://sceneparsing.csail.mit.edu/; 
    download CitySpace Dataset gtFine_trainvaltest.zip and leftImg8bit_trainvaltest.zip from https://www.cityscapes-dataset.com/downloads/; 
    download vgg16 pretrain model vgg16_weights_tf_dim_ordering_tf_kernels_notop.h5 from https://github.com/fchollet/deep-learning-models/releases
@@ -43,8 +43,7 @@ Setup
             - train
             - val
 
-Usage
-
+## Usage
 1. Train 120 epochs street scene in ADEChallengeData2016 Dataset with FCN. The model, weight and tensorboard documents will be generated after training.
 $ python small_ade.py 120
 
